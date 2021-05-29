@@ -9,9 +9,9 @@ public class BubbleSort {
     * Algorithm degrades quickly
     */
 
-    public static int[] bubbleSort(int[] array){
+    public static void bubbleSort(int[] array){
         if(array == null || array.length <= 1)
-            return array;
+            return;
         int partitionIndex = array.length;
 
         for(int j = partitionIndex; j > 0; j--){
@@ -21,7 +21,6 @@ public class BubbleSort {
                 }
             }
         }
-        return array;
     }
 
     public static void swapElements(int[] array, int k, int l){
