@@ -1,4 +1,4 @@
-package com.gebreselassie.sort.array.recurssion.type.sort.mergesort;
+package com.gebreselassie.sort.array.recurssion.type.sort.divideandconquer.mergesort;
 
 public class MergeSort {
     /*
